@@ -9,3 +9,6 @@ const counter = (state = 0, action) => {
 
   return state;
 };
+
+const { createStore } = Redux;
+const store = createStore(counter);
